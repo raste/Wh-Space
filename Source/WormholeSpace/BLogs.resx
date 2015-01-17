@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="corporationAdminChange" xml:space="preserve">
+    <value>(Site administrator) Changed corporation main administrator to</value>
+    <comment>name</comment>
+  </data>
+  <data name="corporationAdminChange1" xml:space="preserve">
+    <value>. Old administrator was</value>
+    <comment>name</comment>
+  </data>
+  <data name="corporationChangeLogsLang" xml:space="preserve">
+    <value>Changed logs language. Old language was</value>
+  </data>
+  <data name="corporationChangeName" xml:space="preserve">
+    <value>Changed corporation name. Old name was</value>
+    <comment>name</comment>
+  </data>
+  <data name="corporationRegister" xml:space="preserve">
+    <value>Registered the corporation</value>
+    <comment>name</comment>
+  </data>
+  <data name="corporationRegister2" xml:space="preserve">
+    <value>and himself.</value>
+  </data>
+  <data name="memberAddNew" xml:space="preserve">
+    <value>Added new member with username</value>
+    <comment>name.</comment>
+  </data>
+  <data name="memberDelete" xml:space="preserve">
+    <value>Deleted member</value>
+    <comment>name.</comment>
+  </data>
+  <data name="memberEditType" xml:space="preserve">
+    <value>Changed type of member</value>
+    <comment>name.</comment>
+  </data>
+  <data name="operationAdd" xml:space="preserve">
+    <value>Added operation ID:</value>
+  </data>
+  <data name="operationDelete" xml:space="preserve">
+    <value>Deleted operation ID:</value>
+  </data>
+  <data name="operationGeneralWhichWasAdded" xml:space="preserve">
+    <value>, added on</value>
+    <comment>something operation ID: 'ID', which was added on date</comment>
+  </data>
+  <data name="operationInfoUpdated" xml:space="preserve">
+    <value>Updated info for operation ID:</value>
+  </data>
+  <data name="operationLenghtChange" xml:space="preserve">
+    <value>Changed length of operation ID:</value>
+  </data>
+  <data name="operationLootAdd" xml:space="preserve">
+    <value>Added</value>
+    <comment>loot</comment>
+  </data>
+  <data name="operationLootAdd2" xml:space="preserve">
+    <value>to opertaion ID:</value>
+  </data>
+  <data name="operationLootDelete" xml:space="preserve">
+    <value>Removed</value>
+    <comment>loot</comment>
+  </data>
+  <data name="operationLootDelete2" xml:space="preserve">
+    <value>from operation ID:</value>
+  </data>
+  <data name="operationLootEdit" xml:space="preserve">
+    <value>Changed information for loot</value>
+    <comment>loot name</comment>
+  </data>
+  <data name="operationLootEdit2" xml:space="preserve">
+    <value>in operation ID:</value>
+  </data>
+  <data name="operationSystemChange" xml:space="preserve">
+    <value>Changed the system in wich was operation ID:</value>
+  </data>
+  <data name="operationUpdateTax" xml:space="preserve">
+    <value>Changed tax of operation ID:</value>
+  </data>
+  <data name="operationUpdateTaxInfo" xml:space="preserve">
+    <value>Updated tax info for operation ID:</value>
+    <comment>operation</comment>
+  </data>
+  <data name="operationUserAdd" xml:space="preserve">
+    <value>Added</value>
+    <comment>member</comment>
+  </data>
+  <data name="operationUserAdd2" xml:space="preserve">
+    <value>to operation ID:</value>
+  </data>
+  <data name="operationUserDelete" xml:space="preserve">
+    <value>Removed</value>
+    <comment>user</comment>
+  </data>
+  <data name="operationUserDelete2" xml:space="preserve">
+    <value>from operation ID:</value>
+  </data>
+  <data name="operationUserEdit" xml:space="preserve">
+    <value>Changed participating information for</value>
+    <comment>member</comment>
+  </data>
+  <data name="operationUserEdit2" xml:space="preserve">
+    <value>in operation ID:</value>
+  </data>
+  <data name="signatureAdd" xml:space="preserve">
+    <value>Added signature</value>
+    <comment>name</comment>
+  </data>
+  <data name="signatureAdd2" xml:space="preserve">
+    <value>to</value>
+    <comment>system</comment>
+  </data>
+  <data name="signatureDelete" xml:space="preserve">
+    <value>Deleted signature</value>
+    <comment>name</comment>
+  </data>
+  <data name="signatureDelete2" xml:space="preserve">
+    <value>in</value>
+    <comment>system</comment>
+  </data>
+  <data name="signatureEdit" xml:space="preserve">
+    <value>Updated signature</value>
+    <comment>name</comment>
+  </data>
+  <data name="signatureEdit2" xml:space="preserve">
+    <value>in</value>
+    <comment>system</comment>
+  </data>
+  <data name="systemAdd" xml:space="preserve">
+    <value>Added system</value>
+    <comment>system</comment>
+  </data>
+  <data name="systemAdd2" xml:space="preserve">
+    <value>connected with</value>
+    <comment>system</comment>
+  </data>
+  <data name="systemClassChange" xml:space="preserve">
+    <value>Changed class of system</value>
+    <comment>system</comment>
+  </data>
+  <data name="systemDelete" xml:space="preserve">
+    <value>Deleted system</value>
+    <comment>system</comment>
+  </data>
+  <data name="systemEffectChange" xml:space="preserve">
+    <value>Changed effect of system</value>
+    <comment>system</comment>
+  </data>
+  <data name="systemInfoUpdate" xml:space="preserve">
+    <value>Updated info for system</value>
+    <comment>system</comment>
+  </data>
+  <data name="systemNameChange" xml:space="preserve">
+    <value>Changed system</value>
+    <comment>system</comment>
+  </data>
+  <data name="systemNameChange2" xml:space="preserve">
+    <value>name to</value>
+    <comment>new name</comment>
+  </data>
+  <data name="systemOccupationUpdate" xml:space="preserve">
+    <value>Updated occupation info for system</value>
+    <comment>system</comment>
+  </data>
+  <data name="wormDelete" xml:space="preserve">
+    <value>Deleted wormholes, which lead from</value>
+    <comment>system</comment>
+  </data>
+  <data name="wormDelete2" xml:space="preserve">
+    <value>to</value>
+    <comment>system</comment>
+  </data>
+  <data name="wormDelete3" xml:space="preserve">
+    <value>and backwards.</value>
+  </data>
+  <data name="wormEdit" xml:space="preserve">
+    <value>Changed wormhole ID, which leads from</value>
+    <comment>system</comment>
+  </data>
+  <data name="wormEdit2" xml:space="preserve">
+    <value>to</value>
+    <comment>system</comment>
+  </data>
+</root>

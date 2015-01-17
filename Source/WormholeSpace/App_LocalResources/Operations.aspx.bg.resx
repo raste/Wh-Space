@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="alertSureToDeleteOperation" xml:space="preserve">
+    <value>Сигурен ли си, че искаш да изтриеш операцията?</value>
+  </data>
+  <data name="alertSureToRemoveLoot" xml:space="preserve">
+    <value>Сигурен ли си, че искаш да премахнеш лоота?</value>
+  </data>
+  <data name="alertSureToRemoveMember" xml:space="preserve">
+    <value>Сигурен ли си, че искаш да премахнеш мембера?</value>
+  </data>
+  <data name="btnAddLoot" xml:space="preserve">
+    <value>Добави лоот</value>
+  </data>
+  <data name="btnAddMember" xml:space="preserve">
+    <value>Добави мембер</value>
+  </data>
+  <data name="btnAddOperation" xml:space="preserve">
+    <value>Добави операция</value>
+  </data>
+  <data name="infoOperationBasedOn" xml:space="preserve">
+    <value>Базирана на:</value>
+  </data>
+  <data name="infoOperationDateLastModified" xml:space="preserve">
+    <value>на</value>
+  </data>
+  <data name="infoOperationID" xml:space="preserve">
+    <value>Операция ID:</value>
+  </data>
+  <data name="infoOperationInfo" xml:space="preserve">
+    <value>Доп. инфо за опа:</value>
+  </data>
+  <data name="infoOperationLastModifiedBy" xml:space="preserve">
+    <value>Последна промяна от:</value>
+  </data>
+  <data name="infoOperationLength" xml:space="preserve">
+    <value>Продължителност:</value>
+  </data>
+  <data name="infoOperationLootInfo" xml:space="preserve">
+    <value>Лоот: име - бройка - цена бройка - обща цена</value>
+  </data>
+  <data name="infoOperationParticipantsInfo" xml:space="preserve">
+    <value>Участвали: име - продължителност - иск - доп. инфо</value>
+  </data>
+  <data name="infoOperationSystem" xml:space="preserve">
+    <value>Система:</value>
+  </data>
+  <data name="infoOperationTax" xml:space="preserve">
+    <value>Такса:</value>
+  </data>
+  <data name="infoOperationTaxInfo" xml:space="preserve">
+    <value>Инфо за таксата:</value>
+  </data>
+  <data name="infoOperationTotalIsk" xml:space="preserve">
+    <value>Общо иск:</value>
+  </data>
+  <data name="infoOperationType" xml:space="preserve">
+    <value>Тип:</value>
+  </data>
+  <data name="noAddedOperations" xml:space="preserve">
+    <value>Няма добавени операции.</value>
+  </data>
+  <data name="staticAddLootPriceEach" xml:space="preserve">
+    <value>Цена бройка:</value>
+  </data>
+  <data name="staticAddLootQuantity" xml:space="preserve">
+    <value>Количество:</value>
+  </data>
+  <data name="staticAddLootToOperation" xml:space="preserve">
+    <value>Добавяне лоот към операция ID:</value>
+  </data>
+  <data name="staticAddMemberToOperation" xml:space="preserve">
+    <value>Добавяне на мембер към операция ID:</value>
+  </data>
+  <data name="staticAddOperation" xml:space="preserve">
+    <value>Добавяне на операция</value>
+  </data>
+  <data name="staticAddUserInfo" xml:space="preserve">
+    <value>Доп. инфо:</value>
+  </data>
+  <data name="staticAddUserLength" xml:space="preserve">
+    <value>Продължителност:</value>
+  </data>
+  <data name="staticEditLootPriceEach" xml:space="preserve">
+    <value>Цена бройка:</value>
+  </data>
+  <data name="staticEditLootQuantity" xml:space="preserve">
+    <value>Количество:</value>
+  </data>
+  <data name="staticEditMember" xml:space="preserve">
+    <value>Промяна мембер участвал в операция ID:</value>
+  </data>
+  <data name="staticEditMemberInfo" xml:space="preserve">
+    <value>Доп. инфо:</value>
+  </data>
+  <data name="staticEditMemberLength" xml:space="preserve">
+    <value>Продължителност:</value>
+  </data>
+  <data name="staticEditOperation" xml:space="preserve">
+    <value>Промяна главна информация за операция ID:</value>
+  </data>
+  <data name="staticEditOperationInfo" xml:space="preserve">
+    <value>Доп. инфо:</value>
+  </data>
+  <data name="staticEditOperationLength" xml:space="preserve">
+    <value>Продължителност:</value>
+  </data>
+  <data name="staticEditOperationLoot" xml:space="preserve">
+    <value>Промяна лоот паднал по-време на операция ID:</value>
+  </data>
+  <data name="staticEditOperationSystem" xml:space="preserve">
+    <value>Система:</value>
+  </data>
+  <data name="staticEditOperationTax" xml:space="preserve">
+    <value>Такса:</value>
+  </data>
+  <data name="staticEditOperationTaxInfo" xml:space="preserve">
+    <value>Доп. инфо за таксата:</value>
+  </data>
+  <data name="staticOperationBasedOn" xml:space="preserve">
+    <value>базирана на:</value>
+  </data>
+  <data name="staticOperationBasedOnPlexes" xml:space="preserve">
+    <value>плексове</value>
+  </data>
+  <data name="staticOperationBasedOnTime" xml:space="preserve">
+    <value>време</value>
+  </data>
+  <data name="staticOperationInfoWatermark" xml:space="preserve">
+    <value>Допълнително инфо за оп-а.</value>
+  </data>
+  <data name="staticOperationLength" xml:space="preserve">
+    <value>продължителност:</value>
+  </data>
+  <data name="staticOperationLootInfo" xml:space="preserve">
+    <value>Лоот: име - количество - цена бройка</value>
+  </data>
+  <data name="staticOperationSystem" xml:space="preserve">
+    <value>система:</value>
+  </data>
+  <data name="staticOperationTax" xml:space="preserve">
+    <value>Такса:</value>
+  </data>
+  <data name="staticOperationTaxInfoWatermark" xml:space="preserve">
+    <value>Допълнително инфо за таксата.</value>
+  </data>
+  <data name="staticOperationTaxTypeIsk" xml:space="preserve">
+    <value>иск</value>
+  </data>
+  <data name="staticOperationType" xml:space="preserve">
+    <value>Операция тип:</value>
+  </data>
+  <data name="staticOperationTypeCombat" xml:space="preserve">
+    <value>бойна</value>
+  </data>
+  <data name="staticOperationTypeGas" xml:space="preserve">
+    <value>събиране газ</value>
+  </data>
+  <data name="staticParticipantsInfo" xml:space="preserve">
+    <value>Участвали: име - време - доп. инфо</value>
+  </data>
+  <data name="staticSiteErrors" xml:space="preserve">
+    <value>* Операции / участници / лоот не могат да се трият от играта.</value>
+  </data>
+  <data name="statusLootRemoved" xml:space="preserve">
+    <value>Избраният лоот е премахнат.</value>
+  </data>
+  <data name="statusMemberRemoved" xml:space="preserve">
+    <value>Мембера е премахнат от операцията.</value>
+  </data>
+  <data name="statusOperationAdded" xml:space="preserve">
+    <value>Операцията е добавена!</value>
+  </data>
+  <data name="statusOperationDeleted" xml:space="preserve">
+    <value>Операцията е изтрита!</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Операции</value>
+  </data>
+  <data name="tooltipAddLootToOp" xml:space="preserve">
+    <value>За добавяне на лоот към операцията.</value>
+  </data>
+  <data name="tooltipAddMemberToOp" xml:space="preserve">
+    <value>За добавяне на мембер към операцията.</value>
+  </data>
+  <data name="tooltipDeleteOperation" xml:space="preserve">
+    <value>Изтрива операцията.</value>
+  </data>
+  <data name="tooltipEditMember" xml:space="preserve">
+    <value>Промяна информацията на мембер-а за операцията.</value>
+  </data>
+  <data name="tooltipEditOperation" xml:space="preserve">
+    <value>Промяна главната информация за операцията.</value>
+  </data>
+  <data name="tooltipEditOpLoot" xml:space="preserve">
+    <value>За промяна на избрания лоот.</value>
+  </data>
+  <data name="tooltipRemoveMember" xml:space="preserve">
+    <value>Премахва мембера от операцията.</value>
+  </data>
+  <data name="tooltipRemoveOpLoot" xml:space="preserve">
+    <value>Изтрива посочения лоот.</value>
+  </data>
+  <data name="errOperationChooseOtherLoot" xml:space="preserve">
+    <value>Избери лоот, който не е записан в операцията!</value>
+  </data>
+  <data name="errOperationChooseOtherMember" xml:space="preserve">
+    <value>Избери мембер, който не участва в операцията!</value>
+  </data>
+  <data name="errOperationErrors" xml:space="preserve">
+    <value>Грешки:</value>
+  </data>
+  <data name="errOperationLengthCantBeEmpty" xml:space="preserve">
+    <value>Продължителността на операцията не може да е празна.</value>
+  </data>
+  <data name="errOperationLengthFormat" xml:space="preserve">
+    <value>Грешен формат на продължителността на операцията.</value>
+  </data>
+  <data name="errOperationLengthLess" xml:space="preserve">
+    <value>Продължителността на операцията не може да е по-малка от 1!</value>
+  </data>
+  <data name="errOperationLengthNew" xml:space="preserve">
+    <value>Новата продължителност е по-малка отколкото продължителността на участие на някой от мемберите.</value>
+  </data>
+  <data name="errOperationLengthType" xml:space="preserve">
+    <value>Въведете продължителност на операцията.</value>
+  </data>
+  <data name="errOperationLootChoose" xml:space="preserve">
+    <value>Избери лоот.</value>
+  </data>
+  <data name="errOperationLootDuplicate" xml:space="preserve">
+    <value>Има повтаряемост на падналия лоот в операцията.</value>
+  </data>
+  <data name="errOperationLootEnter" xml:space="preserve">
+    <value>Въведете лоот, който е събран по време на операцията.</value>
+  </data>
+  <data name="errOperationLootPriceEnter" xml:space="preserve">
+    <value>Въведете цената на бройка от събрания лоот.</value>
+  </data>
+  <data name="errOperationLootPriceFormat" xml:space="preserve">
+    <value>Грешен формат на цената на събрания лоот.</value>
+  </data>
+  <data name="errOperationLootPriceLess" xml:space="preserve">
+    <value>Цената на събран лоот не трябва да е по-малка от 0.</value>
+  </data>
+  <data name="errOperationLootQuantityFormat" xml:space="preserve">
+    <value>Грешен формат в бройката на събран лоот.</value>
+  </data>
+  <data name="errOperationLootQuantityLess" xml:space="preserve">
+    <value>Бройката на събран лоот не трябва да е по-малка от 1.</value>
+  </data>
+  <data name="errOperationLootQuantityType" xml:space="preserve">
+    <value>Въведете бройката на събрания лоот.</value>
+  </data>
+  <data name="errOperationMemberChoose" xml:space="preserve">
+    <value>Избери мембер.</value>
+  </data>
+  <data name="errOperationMemberDuplicate" xml:space="preserve">
+    <value>Има повтаряемост на мембери в операцията.</value>
+  </data>
+  <data name="errOperationMemberEnter" xml:space="preserve">
+    <value>Въведете мембери, които са участвали в операцията.</value>
+  </data>
+  <data name="errOperationMemberLengthFormat" xml:space="preserve">
+    <value>Грешен формат в продължителността на е участие на мембера.</value>
+  </data>
+  <data name="errOperationMemberLengthLess" xml:space="preserve">
+    <value>Продължителността на участие на мембера не може да е по-малкa от 0.</value>
+  </data>
+  <data name="errOperationMemberLengthMore" xml:space="preserve">
+    <value>Продължителността на участие на мембера не може да е по-голямa от тази на операцията.</value>
+  </data>
+  <data name="errOperationMemberLengthType" xml:space="preserve">
+    <value>Въведете продължителността на участие на мембера.</value>
+  </data>
+  <data name="errOperationSystemLengthMore" xml:space="preserve">
+    <value>Дължината на името на системата не може да е по-голяма от 100.</value>
+  </data>
+  <data name="errOperationTaxFormat" xml:space="preserve">
+    <value>Грешен формат на таксата.</value>
+  </data>
+  <data name="errOperationTaxLess" xml:space="preserve">
+    <value>Таксата не може да е по-малка от 1.</value>
+  </data>
+  <data name="errOperationTaxLessZero" xml:space="preserve">
+    <value>Таксата не може да е по-малка от 0.</value>
+  </data>
+  <data name="errOperationTaxMoreIsk" xml:space="preserve">
+    <value>Таксата не може да е повече от общата цена на целия лоот.</value>
+  </data>
+  <data name="errOperationTaxMorePerc" xml:space="preserve">
+    <value>Таксата не може да е повече от 100%.</value>
+  </data>
+  <data name="infoOperationAddedBy" xml:space="preserve">
+    <value>Добавена от:</value>
+  </data>
+  <data name="infoOperationDateAdded" xml:space="preserve">
+    <value>на</value>
+  </data>
+  <data name="statusOperationInfoUpdated" xml:space="preserve">
+    <value>Доп. инфо за операцията е сменено.</value>
+  </data>
+  <data name="statusOperationLengthUpdated" xml:space="preserve">
+    <value>Продължителността на операцията е променена!</value>
+  </data>
+  <data name="statusOperationLootAdded" xml:space="preserve">
+    <value>Добавен е лоот към операцията!</value>
+  </data>
+  <data name="statusOperationLootUpdated" xml:space="preserve">
+    <value>Информацията за лоота е сменена.</value>
+  </data>
+  <data name="statusOperationMemberAdded" xml:space="preserve">
+    <value>Добавен е мембер към операцията!</value>
+  </data>
+  <data name="statusOperationMemberUpdated" xml:space="preserve">
+    <value>Информацията за мембер в операцията е сменена.</value>
+  </data>
+  <data name="statusOperationSystemUpdated" xml:space="preserve">
+    <value>Системата, в която е била операцията е сменена.</value>
+  </data>
+  <data name="statusOperationTaxInfoUpdated" xml:space="preserve">
+    <value>Доп. инфо за таксата на операцията е сменено.</value>
+  </data>
+  <data name="statusOperationTaxUpdated" xml:space="preserve">
+    <value>Таксата на операцията е сменена.</value>
+  </data>
+  <data name="staticCbFillLootLastPriceOnSelect" xml:space="preserve">
+    <value>Попълване цената от последния оп</value>
+  </data>
+  <data name="staticAllLootTypes" xml:space="preserve">
+    <value>покажи всички видове лоот</value>
+  </data>
+</root>

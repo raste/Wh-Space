@@ -1,0 +1,149 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="WhSpace.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+     <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+    <script src="js/JScripts.js" type="text/javascript"></script>
+    <script src="js/Raphael.js" type="text/javascript"></script>
+    <script src="js/Systems.js" type="text/javascript"></script>
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" /> 
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body onload="timedCount(); StartDrawing();" class="mainBgr"">
+    <form id="form1" runat="server" >
+    
+    <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="True">
+        </asp:ScriptManager>
+
+    <div class="outsideDiv clearfix2">
+
+
+    <div id="pageDiv" runat="server" style="width:1020px;">
+      
+
+
+     
+
+
+             <asp:Panel ID="pnlLinksS" runat="server" style="margin-top:5px;">
+
+    
+    <asp:Image ID="Image1" runat="server" ImageUrl="~/images/line-blueD.png" BorderWidth="0" style="margin-bottom:17px;"/> 
+
+         <asp:HyperLink ID="hlMainS" runat="server" NavigateUrl="~/Main.aspx" CssClass="indexLinks" >
+            <div class="clearfix2 mainLinkImgOnly" style="">
+                <asp:Image ID="Image7" runat="server" ImageUrl="~/images/map.png" BorderWidth="0"/> 
+                 <br />
+                <asp:Label ID="lblStaticMap" runat="server" Text="Map" ForeColor="White"></asp:Label>
+            </div>
+          </asp:HyperLink>
+
+           <asp:Image ID="Image12" runat="server" ImageUrl="~/images/line-blue.png" BorderWidth="0" style="margin-bottom:17px;"/> 
+         
+
+             <asp:HyperLink ID="hlOperationsS" runat="server" NavigateUrl="~/Operations.aspx" CssClass="indexLinks" >
+            <div class="clearfix2 mainLinkImgOnly" style="">
+                <asp:Image ID="Image5" runat="server" ImageUrl="~/images/operations.png" BorderWidth="0"/> 
+                <br />
+                <asp:Label ID="lblStaticOperations" runat="server" Text="Operations" ForeColor="White"></asp:Label>
+            </div>
+            </asp:HyperLink>
+
+             <asp:Image ID="Image13" runat="server" ImageUrl="~/images/line-blue.png" BorderWidth="0" style="margin-bottom:17px;"/> 
+
+             <asp:HyperLink ID="hlLogS" runat="server" NavigateUrl="~/Logs.aspx" CssClass="indexLinks" >
+            <div class="clearfix2 mainLinkImgOnly" style="">
+                <asp:Image ID="Image6" runat="server" ImageUrl="~/images/logs.png" BorderWidth="0"/> 
+                 <br />
+                <asp:Label ID="lblStaticLogs" runat="server" Text="Logs" ForeColor="White"></asp:Label>
+            </div>
+            </asp:HyperLink>
+
+                 <asp:Panel ID="pnlAdminLinks" runat="server" Visible="False" style="display:inline-block;">
+                    <asp:Image ID="Image14" runat="server" ImageUrl="~/images/line-blue.png" BorderWidth="0" style="margin-bottom:17px;"/> 
+            <asp:HyperLink ID="hlAdminS" runat="server" NavigateUrl="~/Admin.aspx" CssClass="indexLinks" >
+            <div class="clearfix2 mainLinkImgOnly" style="">
+                <asp:Image ID="Image8" runat="server" ImageUrl="~/images/admin.png" BorderWidth="0"/> 
+                 <br />
+                <asp:Label ID="lblStaticAdmin" runat="server" Text="Admin" ForeColor="White"></asp:Label>
+            </div>
+            </asp:HyperLink>
+                 </asp:Panel>
+           
+                 <asp:Panel ID="pnlProfileLinks" runat="server" style="display:inline-block;">
+                  <asp:Image ID="Image15" runat="server" ImageUrl="~/images/line-blue.png" BorderWidth="0" style="margin-bottom:17px;"/> 
+             <asp:HyperLink ID="hlProfileS" runat="server" NavigateUrl="~/Profile.aspx" CssClass="indexLinks" >
+            <div class="clearfix2 mainLinkImgOnly" style="">
+                <asp:Image ID="Image10" runat="server" ImageUrl="~/images/profile.png" BorderWidth="0"/> 
+                 <br />
+                <asp:Label ID="lblStaticProfile" runat="server" Text="Profile" ForeColor="White"></asp:Label>
+            </div>
+            </asp:HyperLink>
+                 </asp:Panel>
+
+            
+
+           <asp:Image ID="Image4" runat="server" ImageUrl="~/images/line-blueD2.png" BorderWidth="0" style="margin-bottom:20px;"/> 
+
+           <asp:Image ID="Image16" runat="server" ImageUrl="~/images/line-orangeD.png" BorderWidth="0" style="margin-bottom:17px; margin-left:10px;"/> 
+
+             <asp:HyperLink ID="hlFeedBackS" runat="server" NavigateUrl="~/FeedBack.aspx" CssClass="indexLinks" >
+            <div class="clearfix2 mainLinkImgOnly" style="padding-bottom:17px; vertical-align:top;">
+                <asp:Image ID="Image2" runat="server" ImageUrl="~/images/feedback.png" BorderWidth="0"/> 
+            </div>
+            </asp:HyperLink>
+
+             <asp:HyperLink ID="hlAboutS" runat="server" NavigateUrl="~/About.aspx" CssClass="indexLinks" >
+            <div class="clearfix2 mainLinkImgOnly" style="padding-bottom:17px; vertical-align:top;">
+                <asp:Image ID="Image3" runat="server" ImageUrl="~/images/about.png" style="/*margin-bottom:17px;*/" BorderWidth="0"/> 
+            </div>
+            </asp:HyperLink>
+
+             <asp:HyperLink ID="hlGAdminS" runat="server" NavigateUrl="~/GAdmin.aspx" CssClass="indexLinks" >
+            <div class="clearfix2 mainLinkImgOnly" style="vertical-align:top; padding-bottom:17px;">
+                <asp:Image ID="Image11" runat="server" ImageUrl="~/images/gadmin.png" style="/*margin-bottom:17px;*/" BorderWidth="0"/> 
+            </div>
+            </asp:HyperLink>
+
+ <asp:LinkButton ID="lbLogOut" runat="server" CssClass="indexLinks" onclick="lbLogOut_Click" 
+                ></asp:LinkButton>
+
+                  <asp:Panel ID="pnlLogOut" runat="server" CssClass="clearfix2 mainLinkImgOnly" Visible="false" style="padding-bottom:17px;">
+            <asp:Image ID="Image9" runat="server" ImageUrl="~/images/log out.png" ImageAlign="Left" BorderWidth="0"/> 
+            </asp:Panel>
+
+            <asp:Image ID="Image17" runat="server" ImageUrl="~/images/line-orangeD2.png" BorderWidth="0" style="margin-bottom:20px;"/> 
+
+            </asp:Panel>
+            <div style="height:10px; /*background-image: url('../images/mainNavBG.png'); background-repeat: repeat;*/">
+            
+            </div>
+
+
+
+            
+        <div style="padding-left:5px; text-align:left;">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+        
+    </div>
+
+    </div>
+    <div class="end">
+
+    </div>
+    
+    </form>
+</body>
+</html>

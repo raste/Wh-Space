@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="errEnterNewSystemName" xml:space="preserve">
+    <value>Въведи ново име!</value>
+  </data>
+  <data name="errEnterSignatureName" xml:space="preserve">
+    <value>Въведи име на сигнатурата!</value>
+  </data>
+  <data name="errEnterSystemName" xml:space="preserve">
+    <value>Въведи нова система!</value>
+  </data>
+  <data name="errSignatureNameTaken" xml:space="preserve">
+    <value>Вече има такава сигнатура в системата!</value>
+  </data>
+  <data name="errSystemNameTaken" xml:space="preserve">
+    <value>Вече има добавена система с това име!</value>
+  </data>
+  <data name="infoPnlEffect" xml:space="preserve">
+    <value>Ефект :</value>
+  </data>
+  <data name="infoPnlInfo" xml:space="preserve">
+    <value>Доп. инфо :</value>
+  </data>
+  <data name="infoPnlKilograms" xml:space="preserve">
+    <value>кг</value>
+  </data>
+  <data name="infoPnlLifetime" xml:space="preserve">
+    <value>Живот :</value>
+  </data>
+  <data name="infoPnlLifetimeHours" xml:space="preserve">
+    <value>часа</value>
+  </data>
+  <data name="infoPnlMaxMass" xml:space="preserve">
+    <value>Макс. маса на скок :</value>
+  </data>
+  <data name="infoPnlNoInfo" xml:space="preserve">
+    <value>Няма информация!</value>
+  </data>
+  <data name="infoPnlOccupied" xml:space="preserve">
+    <value>Окупирана :</value>
+  </data>
+  <data name="infoPnlSignatures" xml:space="preserve">
+    <value>Сигнатури :</value>
+  </data>
+  <data name="infoPnlTarget" xml:space="preserve">
+    <value>Води към :</value>
+  </data>
+  <data name="infoPnlTotalMass" xml:space="preserve">
+    <value>Обща маса :</value>
+  </data>
+  <data name="noAddedSignatures" xml:space="preserve">
+    <value>не са добавени</value>
+  </data>
+  <data name="staticAddNewSystem" xml:space="preserve">
+    <value>Добави система до която се стига от :</value>
+  </data>
+  <data name="staticAddSignature" xml:space="preserve">
+    <value>Добавяне на сигнатура в :</value>
+  </data>
+  <data name="staticAddSignatureName" xml:space="preserve">
+    <value>Име :</value>
+  </data>
+  <data name="staticAddSignatureType" xml:space="preserve">
+    <value>Тип :</value>
+  </data>
+  <data name="staticAddSystemClass" xml:space="preserve">
+    <value>Клас :</value>
+  </data>
+  <data name="staticAddSystemEffect" xml:space="preserve">
+    <value>Ефект :</value>
+  </data>
+  <data name="staticAddSystemName" xml:space="preserve">
+    <value>Име на системата :</value>
+  </data>
+  <data name="staticAddSystemWormIDFromIt" xml:space="preserve">
+    <value>ID на дупката от обратната страна :</value>
+  </data>
+  <data name="staticAddSystemWormIDToIt" xml:space="preserve">
+    <value>ID на дупката водеща към нея :</value>
+  </data>
+  <data name="staticEditSignature" xml:space="preserve">
+    <value>Промяна на сигнатура :</value>
+  </data>
+  <data name="staticEditSignatureNewName" xml:space="preserve">
+    <value>Име :</value>
+  </data>
+  <data name="staticEditSignatureNewType" xml:space="preserve">
+    <value>Тип :</value>
+  </data>
+  <data name="staticEditSysNewClass" xml:space="preserve">
+    <value>Смяна клас :</value>
+  </data>
+  <data name="staticEditSysNewEffect" xml:space="preserve">
+    <value>Смяна ефект :</value>
+  </data>
+  <data name="staticEditSysNewName" xml:space="preserve">
+    <value>Ново име :</value>
+  </data>
+  <data name="staticEditSystem" xml:space="preserve">
+    <value>Промяна система :</value>
+  </data>
+  <data name="staticEditSystemInfo" xml:space="preserve">
+    <value>Доп. инфо :</value>
+  </data>
+  <data name="staticEditSystemOccupied" xml:space="preserve">
+    <value>Окупирана :</value>
+  </data>
+  <data name="staticEditWormhole" xml:space="preserve">
+    <value>Промяна на дупка</value>
+  </data>
+  <data name="staticEditWormholeFrom" xml:space="preserve">
+    <value>от</value>
+  </data>
+  <data name="staticEditWormholeTo" xml:space="preserve">
+    <value>към</value>
+  </data>
+  <data name="staticInfoForSys" xml:space="preserve">
+    <value>Информация за</value>
+  </data>
+  <data name="staticNewSigInfoWatermark" xml:space="preserve">
+    <value>Допълнителна информация</value>
+  </data>
+  <data name="staticSignatureTypeNotScanned" xml:space="preserve">
+    <value>не е сканирана</value>
+  </data>
+  <data name="staticSiteErrors" xml:space="preserve">
+    <value>* Системи не могат да се трият от играта.</value>
+  </data>
+  <data name="staticSysAdded" xml:space="preserve">
+    <value>Добавена :</value>
+  </data>
+  <data name="staticSysAddedBy" xml:space="preserve">
+    <value>от</value>
+  </data>
+  <data name="staticSysConnectedWith" xml:space="preserve">
+    <value>Свързана :</value>
+  </data>
+  <data name="staticSysInfo" xml:space="preserve">
+    <value>Доп. инфо :</value>
+  </data>
+  <data name="staticSysOccupied" xml:space="preserve">
+    <value>Окупирана :</value>
+  </data>
+  <data name="staticSysSignatures" xml:space="preserve">
+    <value>Сигнатури :</value>
+  </data>
+  <data name="staticSystemClassUnknown" xml:space="preserve">
+    <value>неизвестен</value>
+  </data>
+  <data name="staticSystemClassWormhole" xml:space="preserve">
+    <value>дупка</value>
+  </data>
+  <data name="staticSystemEffectNoEffect" xml:space="preserve">
+    <value>няма ефект</value>
+  </data>
+  <data name="staticSystemEffectUnknown" xml:space="preserve">
+    <value>неизвестен</value>
+  </data>
+  <data name="staticWormholeNewId" xml:space="preserve">
+    <value>Ново ID :</value>
+  </data>
+  <data name="statiSignatureTypeWormwhole" xml:space="preserve">
+    <value>дупка</value>
+  </data>
+  <data name="statusSigDeleted" xml:space="preserve">
+    <value>Сигнатурата е изтрита!</value>
+  </data>
+  <data name="statusSignatureAdded" xml:space="preserve">
+    <value>Сигнатурата е добавена!</value>
+  </data>
+  <data name="statusSignatureUpdated" xml:space="preserve">
+    <value>Сигнатурата е обновена!</value>
+  </data>
+  <data name="statusSystemAdded" xml:space="preserve">
+    <value>Системата е добавена!</value>
+  </data>
+  <data name="statusSystemClassUpdated" xml:space="preserve">
+    <value>Класа на системата е сменен!</value>
+  </data>
+  <data name="statusSystemDeleted" xml:space="preserve">
+    <value>Системата е изтрита!</value>
+  </data>
+  <data name="statusSystemEffectUpdated" xml:space="preserve">
+    <value>Ефекта на системата е сменен!</value>
+  </data>
+  <data name="statusSystemInfoUpdated" xml:space="preserve">
+    <value>Доп. информация за системата е обновена!</value>
+  </data>
+  <data name="statusSystemNameChanged" xml:space="preserve">
+    <value>Името на системата е сменено!</value>
+  </data>
+  <data name="statusSystemOccupationUpdated" xml:space="preserve">
+    <value>Информацията за окупацията на системата е сменена!</value>
+  </data>
+  <data name="statusWhIdUpdated" xml:space="preserve">
+    <value>ID-то на дупката е сменено!</value>
+  </data>
+  <data name="systemInfoConnectedWith" xml:space="preserve">
+    <value>с</value>
+  </data>
+  <data name="systemInfoFromWh" xml:space="preserve">
+    <value>през</value>
+  </data>
+  <data name="systemInfoNoConnections" xml:space="preserve">
+    <value>няма връзки</value>
+  </data>
+  <data name="systemInfoToSys" xml:space="preserve">
+    <value>към</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Карта</value>
+  </data>
+  <data name="staticSystemDeleteConfirm" xml:space="preserve">
+    <value>Сигурен ли си, че искаш да изтриеш системата?</value>
+  </data>
+  <data name="staticSignatureTypeWormwhole" xml:space="preserve">
+    <value>дупка</value>
+  </data>
+  <data name="infoApiNpcKills" xml:space="preserve">
+    <value>Нпц</value>
+  </data>
+  <data name="infoApiPodKills" xml:space="preserve">
+    <value>Под</value>
+  </data>
+  <data name="infoApiShipKills" xml:space="preserve">
+    <value>Кораб</value>
+  </data>
+  <data name="infoPnlApiJumps" xml:space="preserve">
+    <value>Скокове | 1ч :</value>
+  </data>
+  <data name="infoPnlApiKills" xml:space="preserve">
+    <value>Убийства | 1ч :</value>
+  </data>
+  <data name="staticSystemFirstDiscovery" xml:space="preserve">
+    <value>Откр. първи път :</value>
+  </data>
+  <data name="staticSystemLastDiscovery" xml:space="preserve">
+    <value>Откр. последно :</value>
+  </data>
+</root>
