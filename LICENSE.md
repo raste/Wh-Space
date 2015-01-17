@@ -15,8 +15,7 @@
    This project uses the following libraries/tools:
    
 --- 
-   log4net - log4net is a tool to help the programmer output log statements to a variety of output targets.
-   Address: http://logging.apache.org/log4net/index.html 
+   log4net - log4net is a tool to help the programmer output log statements to a variety of output targets.Address: http://logging.apache.org/log4net/index.html 
    Copyrighted under Apache License, Version 2.0 (http://logging.apache.org/log4net/license.html)
    
 --- 
