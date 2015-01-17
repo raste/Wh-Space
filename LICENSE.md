@@ -21,7 +21,7 @@
    
 --- 
    EveAI - EveAI consists of several .Net/CLI 2.0 Libraries that can be used for development for Eve Online.
-   [http://wiki.eve-id.net/EveAI](http://wiki.eve-id.net/EveAI)
+   [http://wiki.eve-id.net/EveAI](http://wiki.eve-id.net/EveAI) 
    License: Common-Use
    
 ---
