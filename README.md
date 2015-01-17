@@ -16,7 +16,7 @@ At the time the project was the first public mapping tool for wormhole space in 
 
 ### Poke/Edit
 
-Read [https://github.com/raste/Wh-Space/blob/master/INSTALL.md](https://github.com/raste/Wh-Space/blob/master/INSTALL.md)
+Read [INSTALL.md](https://github.com/raste/Wh-Space/blob/master/INSTALL.md)
 
 ### Images
 
