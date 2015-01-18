@@ -27,7 +27,7 @@ To run the site you will have to prepare couple of things:
    **IMPORTANT**: The connection string line must be on ONE row.
 3. Logs configuration (again in web.config file)
   ```
-  <param name="File" value="D:\Projects\EveWormholes\trunk\WormholeSpace\logs\log.txt" />
+  <param name="File" value="D:\Logs\log.txt" />
   ```
   This project uses open source library "log4net" (http://logging.apache.org/) for logging of exceptions (errors) to log files. Basically if site crashes at some operation, the error will be written to a log file.
   
