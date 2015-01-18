@@ -41,7 +41,7 @@ To run the site you will have to prepare couple of things:
          * The logs directory must be sub-directory of the application dir.  
          * You need to explictly give rights to the Worker process (Example name : Plesk IIS WP User (ASPNET_WP), name is different based on provider), in order application to read/write log files. The necessary permissions are : READ, WRITE, MODIFY, READ AND EXECUTE. 
       
-      Replace `D:\Logs\log.txt` in `<param name="File" value="D:\Logs\log.txt" />` with the physical path to the directory, in which the log files will be. If everything done correct, log file will be created on first start up.
+      Replace `D:\Logs\log.txt` in `<param name="File" value="D:\Logs\log.txt" />` with the physical path to the directory, in which the log files will be. An log file will be created on first start up if everything is done correctly.
       
       *NOTE:* Be sure that the log files cannot be downloaded by clients by typing the address of a log file in a browser.
 4. Set [Index.aspx](https://github.com/raste/Wh-Space/blob/master/Source/WormholeSpace/Index.aspx) as start page in Visual Studio. 
