@@ -8,7 +8,7 @@ To run the site you will have to prepare couple of things:
    The connection to the database must be configured in [Web.config file](https://github.com/raste/Wh-Space/blob/master/Source/WormholeSpace/Web.config).  
 
 ```
-&lt;add name="Entities" connectionString="metadata=res://*/WormwholeModel.csdl|res://*/WormwholeModel.ssdl|res://*/WormwholeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=NAME;Initial Catalog=wormhole-space;Integrated Security=True;MultipleActiveResultSets=True&quot;" providerName="System.Data.EntityClient" /&gt;
+<add name="Entities" connectionString="metadata=res://*/WormwholeModel.csdl|res://*/WormwholeModel.ssdl|res://*/WormwholeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=NAME;Initial Catalog=wormhole-space;Integrated Security=True;MultipleActiveResultSets=True&quot;" providerName="System.Data.EntityClient" />
 ``` 
 is the line, which is used by the application to connect with the db. If it is not set up correctly, the site will not be able to connect to the db, and will not start.
 
