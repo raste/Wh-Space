@@ -1,6 +1,6 @@
 ### Preparations
 
-In order to browse and build the application you will need Visual Studio 2010 or greater.
+In order to modify the code and build the application you will need Visual Studio 2010 or greater.
 
 To run the site you will have to prepare couple of things:  
 
@@ -25,15 +25,12 @@ To run the site you will have to prepare couple of things:
  ```  
    
    **IMPORTANT**: The connection string line must be on ONE row.
-3. Logs configuration (again in web.config file)
-  ```
-  <param name="File" value="D:\Projects\EveWormholes\trunk\WormholeSpace\logs\log.txt" />
-  ```
+3. Logs configuration (again in web.config file)  
   This project uses open source library "log4net" (http://logging.apache.org/) for logging of exceptions (errors) to log files. Basically if site crashes at some operation, the error will be written to a log file.
   
   You may not be interested in this functionality, so there are 2 options:
     * To not use logging: 
-      replace `<level value="DEBUG" />` with `<level value="OFF" />` in `configuration > log4net > root` node or replace `D:\Logs\log.txt` in `<param name="File" value="D:\Logs\log.txt" />` with invalid path
+      replace `<level value="DEBUG" />` with `<level value="OFF" />` in *configuration > log4net > root* node or replace `D:\Logs\log.txt` in `<param name="File" value="D:\Logs\log.txt" />` with invalid path.
     * To use logging:
       Create directory in which the logs files will be.  
       
@@ -41,7 +38,7 @@ To run the site you will have to prepare couple of things:
          * The logs directory must be sub-directory of the application dir.  
          * You need to explictly give rights to the Worker process (Example name : Plesk IIS WP User (ASPNET_WP), name is different based on provider), in order application to read/write log files. The necessary permissions are : READ, WRITE, MODIFY, READ AND EXECUTE. 
       
-      Replace `D:\Logs\log.txt` in `<param name="File" value="D:\Logs\log.txt" />` with the physical path to the directory, in which the log files will be. If everything done correct, log file will be created on first start up.
+      Replace `D:\Logs\log.txt` in `<param name="File" value="D:\Logs\log.txt" />` with the physical path to the directory, in which the log files will be. An log file will be created on first start up if everything is done correctly.
       
       *NOTE:* Be sure that the log files cannot be downloaded by clients by typing the address of a log file in a browser.
 4. Set [Index.aspx](https://github.com/raste/Wh-Space/blob/master/Source/WormholeSpace/Index.aspx) as start page in Visual Studio. 
