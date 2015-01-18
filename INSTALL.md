@@ -56,6 +56,6 @@ Initial users:
   * Guest user with username `guest` and password `guest`
 
 **If there are problems**:  
-  * If you specified valid directory for "log4net", and set everything correct, there should be a log file in the specified directory. Download the file, open it and see if there are ERROR entries.  
+  * If you specified valid directory for "log4net", and set everything correct, there should be a log file in the specified directory. Open it and see if there are ERROR entries.  
   * If you haven't configured "log4net" or it isn't writing logs, you can change the following line in Web.config: `<customErrors mode="On" />` with `<customErrors mode="Off" />`. This will enable the application to show the errors in the browser (but this way everyone will be able to see them if they encounter one). After this start the project and see what error it will show.  
   * Read this file again and see if you didn't miss anything. Most likely the connection string is not configured properly or there is something missing in the database.
