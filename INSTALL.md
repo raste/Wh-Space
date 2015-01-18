@@ -1,9 +1,9 @@
 In order to browse and build the application you will need Visual Studio 2010 or greater.
 
 To run the site you will have to prepare couple of things:  
-    1. Database (db)  
-   Microsoft SQL Server 2005 or higher to host the db is needed.  
-   You will need to create db, which will be used by the site. This can be done by running the script ([DB/WhSpace.sql](https://github.com/raste/Wh-Space/blob/master/DB/WhSpace.sql)) or the backup file ([DB/WhSpace.bak](https://github.com/raste/Wh-Space/blob/master/DB/WhSpace.bak)).  
+1. Database (db)  
+⋅⋅⋅Microsoft SQL Server 2005 or higher to host the db is needed.  
+⋅⋅⋅You will need to create db, which will be used by the site. This can be done by running the script ([DB/WhSpace.sql](https://github.com/raste/Wh-Space/blob/master/DB/WhSpace.sql)) or the backup file ([DB/WhSpace.bak](https://github.com/raste/Wh-Space/blob/master/DB/WhSpace.bak)).  
     2. Configuration  
    The connection to the database must be configured in [Web.config file](https://github.com/raste/Wh-Space/blob/master/Source/WormholeSpace/Web.config).  
 
