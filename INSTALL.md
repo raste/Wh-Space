@@ -1,6 +1,6 @@
 ### Preparations
 
-In order to browse and build the application you will need Visual Studio 2010 or greater.
+In order to modify the code and build the application you will need Visual Studio 2010 or greater.
 
 To run the site you will have to prepare couple of things:  
 
