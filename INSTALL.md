@@ -25,7 +25,7 @@ To run the site you will have to prepare couple of things:
  ```  
    
    **IMPORTANT**: The connection string line must be on ONE row.
-3. Logs configuration (again in web.config file)
+3. Logs configuration (again in web.config file)  
   This project uses open source library "log4net" (http://logging.apache.org/) for logging of exceptions (errors) to log files. Basically if site crashes at some operation, the error will be written to a log file.
   
   You may not be interested in this functionality, so there are 2 options:
