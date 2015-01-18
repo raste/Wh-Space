@@ -17,10 +17,10 @@ To run the site you will have to prepare couple of things:
     * `Data Source=NAME;` - replace `NAME` with the name and address (if it is located on other machine) of the SQL server 
     * `Initial Catalog=wormhole-space;` - replace `wormhole-space` with the name of the created db
     *  If the database is password protected remove `Integrated Security=True;` and add `;uid=username;pwd=password` after `MultipleActiveResultSets=True` and substitute `username` and `password` with your credentials.
-      The connection string will look like this whit credentials 
-      ```
-      <add name="Entities" connectionString="metadata=res://*/WormwholeModel.csdl|res://*/WormwholeModel.ssdl|res://*/WormwholeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=NAME;Initial Catalog=wormhole-space;MultipleActiveResultSets=True;uid=username;pwd=password&quot;" providerName="System.Data.EntityClient" />
-      ```
+      The connection string will look like this whit credentials  
+  ```
+<add name="Entities" connectionString="metadata=res://*/WormwholeModel.csdl|res://*/WormwholeModel.ssdl|res://*/WormwholeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=NAME;Initial Catalog=wormhole-space;MultipleActiveResultSets=True;uid=username;pwd=password&quot;" providerName="System.Data.EntityClient" />
+ ```
 
 TODO: username and pass
 
