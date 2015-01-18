@@ -1,10 +1,12 @@
+### Preparations
+
 In order to browse and build the application you will need Visual Studio 2010 or greater.
 
 To run the site you will have to prepare couple of things:  
 
 1. Database (db)  
   Microsoft SQL Server 2005 or higher to host the db is needed.  
-  You will need to create db, which will be used by the site. This can be done by running the script ([DB/WhSpace.sql](https://github.com/raste/Wh-Space/blob/master/DB/WhSpace.sql)) or the backup file ([DB/WhSpace.bak](https://github.com/raste/Wh-Space/blob/master/DB/WhSpace.bak)).  
+  You will need to create db, which will be used by the site. This can be done by running the script ([DB/WhSpace.sql](https://github.com/raste/Wh-Space/blob/master/DB/WhSpace.sql)) or restoring via the backup file ([DB/WhSpace.bak](https://github.com/raste/Wh-Space/blob/master/DB/WhSpace.bak)).  
 2. Connection string configuration  
   The connection to the database must be configured in [Web.config file](https://github.com/raste/Wh-Space/blob/master/Source/WormholeSpace/Web.config).  
 
@@ -42,13 +44,18 @@ To run the site you will have to prepare couple of things:
       Replace `D:\Logs\log.txt` in `<param name="File" value="D:\Logs\log.txt" />` with the physical path to the directory, in which the log files will be. If everything done correct, log file will be created on first start up.
       
       *NOTE:* Be sure that the log files cannot be downloaded by clients by typing the address of a log file in a browser.
+4. Set [Index.aspx](https://github.com/raste/Wh-Space/blob/master/Source/WormholeSpace/Index.aspx) as start page in Visual Studio. 
 
-            
+### Run
 
+Now you are ready to run the application.  
+Try to browse the site. If it starts ..congratilations! Click on the demo link to see if there is connection from site to database. If the page opens, then everything is OK. You are ready to use it.  
 
+Initial users:  
+  * The main administrator with username `admin` and password `admin`. To change the password go to administration page, select corporation and go to profile page
+  * Guest user with username `guest` and password `guest`
 
-TODO:)
-
-add set startup page -> Index.aspx
-
-   The admin username can only be changed from the database. The password can be changed from site (by going to administration page, selecting corporation and going to profile page).
+**If there are problems**:  
+  * If you specified valid directory for "log4net", and set everything correct, there should be a log file in the specified directory. Download the file, open it and see if there are ERROR entries.  
+  * If you haven't configured "log4net" or it isn't writing logs, you can change the following line in Web.config: `<customErrors mode="On" />` with `<customErrors mode="Off" />`. This will enable the application to show the errors in the browser (but this way everyone will be able to see them if they encounter one). After this start the project and see what error it will show.  
+  * Read this file again and see if you didn't miss anything. Most likely the connection string is not configured properly or there is something missing in the database.
