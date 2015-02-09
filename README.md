@@ -14,7 +14,7 @@ At the time the project was the first public mapping tool for wormhole space in 
 
 ### Technologies
 
-.NET 4.0, C#, Web Forms, Web Services, LINQ, Entity Framework, AJAX, Javascript, JS drawing library Raphael ([http://raphaeljs.com](http://raphaeljs.com)), log4net, EveAI ([http://wiki.eve-id.net/EveAI](http://wiki.eve-id.net/EveAI)), EVE Online Fansite Kit ([http://wiki.eveonline.com/en/wiki/EVE_Online_Fansite_Kit](http://wiki.eveonline.com/en/wiki/EVE_Online_Fansite_Kit))
+.NET 4.0, C#, Web Forms, Web Services, LINQ, Entity Framework, AJAX, Javascript, JS drawing library Raphael [Raphael](http://raphaeljs.com), [log4net](http://logging.apache.org/log4net/), [EveAI](http://wiki.eve-id.net/EveAI), EVE Online [Fansite Kit](http://wiki.eveonline.com/en/wiki/EVE_Online_Fansite_Kit)
 
 ### Poke/Edit
 
