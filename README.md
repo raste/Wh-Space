@@ -2,7 +2,7 @@
 
 ### About
 
-Web application which graphically displays stellar systems and wormholes between them in the MMORPG (game) Eve Online ([http:/www.eveonline.com](http:/www.eveonline.com)). The map is based on information uploaded by the players. It also helps managing the income from operations in wormhole space.
+Web application which graphically displays stellar systems and wormholes between them in the MMORPG (game) [Eve Online](http:/www.eveonline.com). The map is based on information uploaded by the players. It also helps managing the income from operations in wormhole space.
 
 [http://wh-space.wiadvice.com/](http://wh-space.wiadvice.com/)
 
