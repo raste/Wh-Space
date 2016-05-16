@@ -6,8 +6,6 @@ July 2011 – October 2011
 
 Web application which graphically displays stellar systems and wormholes between them in the MMORPG game [Eve Online](http:/www.eveonline.com). The map is based on information uploaded by the players. It also helps managing the income from operations in wormhole space.
 
-[http://wh-space.wiadvice.com/](http://wh-space.wiadvice.com/)
-
 The project was initially made to support the operations of one corporation, but after receiving positive feedback it was upgraded to support multiple corporations and languages.
 
 It was open sourced after multiple players expressed thoughts that the information in the tool (uploaded by them) can be used against them (in the game).
